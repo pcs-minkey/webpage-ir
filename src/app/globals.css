@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.font-mbc {
+  font-family: var(--font-mbc);
+}
+
+.font-gong {
+  font-family: var(--font-gong);
+}
+
+p {
+  color: #212529;
+  font-family: var(--font-mbc);
+}
